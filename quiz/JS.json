@@ -1,0 +1,162 @@
+[
+  {
+    "questionType": "JS",
+    "question": "var, let, and const differ in what ways?",
+    "incorrectAnswers": [
+      "One has function scope, one has block scope, one has lexical scope.",
+      "One has function scope, two have block scope, one contains objects you cannot change.",
+      "One has function scope, two have block scope, one cannot be reassigned but can be redeclared."
+    ],
+    "correctAnswer": "One has function scope, two have block scope, one cannot be reassigned and cannot be redeclared."
+  },
+  {
+    "questionType": "JS",
+    "question": "Which isn't a JavaScript value type?",
+    "incorrectAnswers": [
+      "Symbol",
+      "Null",
+      "Undefined"
+    ],
+    "correctAnswer": "Object"
+  },
+  {
+    "questionType": "JS",
+    "question": "Which isn't a way to initialize an object?",
+    "incorrectAnswers": [
+      "Evaluating object literal syntax",
+      "Creating an instance of Object",
+      "Invoking the Object constructor's create method"
+    ],
+    "correctAnswer": "Calling the Object constructor"
+  },
+  {
+    "questionType": "JS",
+    "question": "Which of the following is true about variable naming conventions in JavaScript?",
+    "incorrectAnswers": [
+      "You should not use any of the JavaScript reserved keyword as variable name.",
+      "JavaScript variable names should not start with a numeral (0-9).",
+      "None of the above."
+    ],
+    "correctAnswer": "Both of the above."
+  },
+  {
+    "questionType": "JS",
+    "question": "Which is a value as well as a type?",
+    "incorrectAnswers": [
+      "NaN",
+      "Infinity",
+      "Boolean"
+    ],
+    "correctAnswer": "Null and Undefined"
+  },
+  {
+    "questionType": "JS",
+    "question": "What does it mean to say Function is first-class?",
+    "incorrectAnswers": [
+      "Function declarations are hoisted and invoked before other code in the same function scope.",
+      "All objects are created by invoking a constructor function.",
+      "Functions are a data type."
+    ],
+    "correctAnswer": "A Function is an object and can be treated as a value."
+  },
+  {
+    "questionType": "JS",
+    "question": "Which doesn't have lexical scope?",
+    "incorrectAnswers": [
+      "Variables in closures",
+      "Variables in arrow functions",
+      "The this keyword in object literals"
+    ],
+    "correctAnswer": "The this keyword in arrow functions"
+  },
+  {
+    "questionType": "JS",
+    "question": "Which of the following function of Boolean object returns a string containing the source of the Boolean object?",
+    "incorrectAnswers": [
+      "valueOf()",
+      "toString()",
+      "None of the above."
+    ],
+    "correctAnswer": "toSource()"
+  },
+  {
+    "questionType": "JS",
+    "question": "Which is the most accurate way to describe the 'this' keyword?",
+    "incorrectAnswers": [
+      "The execution context",
+      "The object the current function is a method of",
+      "The function that the current function was invoked from"
+    ],
+    "correctAnswer": "The object instance the current function is being called on behalf of"
+  },
+  {
+    "questionType": "JS",
+    "question": "What do all initialized objects include?",
+    "incorrectAnswers": [
+      "Their constructor's properties, methods, and prototype chain",
+      "Object as their base class",
+      "None of the Above"
+    ],
+    "correctAnswer": "Both are correct"
+  },
+  {
+    "questionType": "JS",
+    "question": "What are the three phases of event propagation?",
+    "incorrectAnswers": [
+      "Target > Bubbling > Capturing",
+      "Bubbling > Target > Capturing",
+      "Target > Capturing > Bubbling"
+    ],
+    "correctAnswer": "Capturing > Target > Bubbling"
+  },
+  {
+    "questionType": "JS",
+    "question": "Which of the following is true about typeof operator in JavaScript?",
+    "incorrectAnswers": [
+      "Its value is a string indicating the data type of the operand",
+      "The typeof is a unary operator that is placed before its single operand, which can be of any type",
+      "None of the above"
+    ],
+    "correctAnswer": "Both of the above"
+  },
+  {
+    "questionType": "JS",
+    "question": "The function and var are known as:",
+    "incorrectAnswers": [
+      "Keywords",
+      "Data types",
+      "Prototypes"
+    ],
+    "correctAnswer": "Declaration statements"
+  },
+  {
+    "questionType": "JS",
+    "question": "What is the primary rule of the Lexical Scoping?",
+    "incorrectAnswers": [
+      "Functions are always declared in the scope",
+      "Variables are declared inside the function",
+      "Functions are always declared outside the scope"
+    ],
+    "correctAnswer": "Functions gets executes using scope chain"
+  },
+  {
+    "questionType": "JS",
+    "question": "What is required in order to implement the Lexical Scoping?",
+    "incorrectAnswers": [
+      "Dereference the current scope chain",
+      "Get the object",
+      "Return the value"
+    ],
+    "correctAnswer": "To reference the current scope chain"
+  },
+  {
+    "questionType": "JS",
+    "question": "What are the closures?",
+    "incorrectAnswers": [
+      "Both Function objects and Scope where function's variables are resolved",
+      "Scope where function's variables are resolved",
+      "Function return value"
+    ],
+    "correctAnswer": "Function objects"
+  }
+]

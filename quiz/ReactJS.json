@@ -1,0 +1,192 @@
+[
+  {
+    "questionType": "ReactJS",
+    "question": "React is mainly used for building ___",
+    "incorrectAnswers": [
+      "Database",
+      "Connectivity",
+      "Design Platform"
+    ],
+    "correctAnswer": "User interface"
+  },
+  {
+    "questionType": "ReactJS",
+    "question": "The lifecycle methods are mainly used for ___",
+    "incorrectAnswers": [
+      "keeping track of event history",
+      "enhancing components",
+      "none of the above"
+    ],
+    "correctAnswer": "freeing up resources"
+  },
+  {
+    "questionType": "ReactJS",
+    "question": "___ can be done while multiple elements need to be returned from a component.",
+    "incorrectAnswers": [
+      " Abstraction",
+      "Packing",
+      "Insulation"
+    ],
+    "correctAnswer": "Wrapping"
+  },
+  {
+    "questionType": "ReactJS",
+    "question": "Ref is used for referring an element or component returned by ___",
+    "incorrectAnswers": [
+      "react()",
+      "reduce()",
+      "refer()"
+    ],
+    "correctAnswer": "render()"
+  },
+  {
+    "questionType": "ReactJS",
+    "question": "What is Babel?",
+    "incorrectAnswers": [
+      " A transpiler",
+      "A Compiler",
+      "An interpreter"
+    ],
+    "correctAnswer": "Both Compiler and Transpilar"
+  },
+  {
+    "questionType": "ReactJS",
+    "question": "Which of the following methods in a React Component should be overridden to stop the component from updating?",
+    "incorrectAnswers": [
+      "willComponentUpdate",
+      "componentDidUpdate",
+      "componentDidMount"
+    ],
+    "correctAnswer": "shouldComponentUpdate"
+  },
+  {
+    "questionType": "ReactJS",
+    "question": "What is used to pass data to a component from outside?",
+    "incorrectAnswers": [
+      "setState",
+      "render with arguments",
+      "PropTypes"
+    ],
+    "correctAnswer": "props"
+  },
+  {
+    "questionType": "ReactJS",
+    "question": "Which of the following methods in a React Component is called after the component is rendered for the first time?",
+    "incorrectAnswers": [
+      "componentDidUpdate",
+      "componentMounted",
+      "componentUpdated"
+    ],
+    "correctAnswer": "componentDidMount"
+  },
+  {
+    "questionType": "ReactJS",
+    "question": "What will happen if you call setState() inside render() method?",
+    "incorrectAnswers": [
+      "Repetitive output appears on the screen",
+      "Duplicate key error",
+      "Nothing happens"
+    ],
+    "correctAnswer": "Stack overflow error"
+  },
+  {
+    "questionType": "ReactJS",
+    "question": "Everything in React is a ______",
+    "incorrectAnswers": [
+      "Module",
+      "Package",
+      "Class"
+    ],
+    "correctAnswer": "Component"
+  },
+  {
+    "questionType": "ReactJS",
+    "question": "How do you handle passing through the component tree without having to pass props down manually at every level?",
+    "incorrectAnswers": [
+      "React Send",
+      "React Router",
+      "React Pinpoint"
+    ],
+    "correctAnswer": "React Context"
+  },
+  {
+    "questionType": "ReactJS",
+    "question": "Why might you use useReducer over useState in a React component?",
+    "incorrectAnswers": [
+      "when you want to replace Redux",
+      "when you want to improve performance",
+      "when you want to break your production app"
+    ],
+    "correctAnswer": "when you need to manage more complex state in an app"
+  },
+  {
+    "questionType": "ReactJS",
+    "question": "What can you use to handle code splitting?",
+    "incorrectAnswers": [
+      "React.memo",
+      "React.split",
+      "React.fallback"
+    ],
+    "correctAnswer": "React.lazy"
+  },
+  {
+    "questionType": "ReactJS",
+    "question": "When do you use useLayoutEffect?",
+    "incorrectAnswers": [
+      "to optimize for all devices",
+      "to complete the update",
+      "to change the layout of the screen"
+    ],
+    "correctAnswer": "when you need the browser to paint before the effect runs"
+  },
+  {
+    "questionType": "ReactJS",
+    "question": "When might you use React.PureComponent?",
+    "incorrectAnswers": [
+      "when you do not want your component to have props",
+      "when you have sibling components that need to be compared",
+      "when you do not want your component to have state"
+    ],
+    "correctAnswer": "when you want a default implementation of shouldComponentUpdate()"
+  },
+  {
+    "questionType": "ReactJS",
+    "question": "Why is it important to avoid copying the values of props into a component's state where possible?",
+    "incorrectAnswers": [
+      "because you should never mutate state",
+      "because getDerivedStateFromProps() is an unsafe method to use",
+      "because you want to allow data to flow back up to the parent"
+    ],
+    "correctAnswer": "because you want to allow a component to update in response to changes in the props"
+  },
+  {
+    "questionType": "ReactJS",
+    "question": "In which lifecycle method do you make requests for data in a class component?",
+    "incorrectAnswers": [
+      "constructor",
+      "componentWillReceiveProps",
+      "componentWillMount"
+    ],
+    "correctAnswer": "componentDidMount"
+  },
+  {
+    "questionType": "ReactJS",
+    "question": "Why might you use a ref?",
+    "incorrectAnswers": [
+      "to refer to another JS file",
+      "to call a function",
+      "to bind the function"
+    ],
+    "correctAnswer": "to directly access the DOM node"
+  },
+  {
+    "questionType": "ReactJS",
+    "question": "Which Hook could be used to update the document's title?",
+    "incorrectAnswers": [
+      "useEffect(() => { title = name + ' ' + lastname; });",
+      "useEffect(function updateTitle() { name + ' ' + lastname; });",
+      "useEffect(function updateTitle() { title = name + ' ' + lastname; });"
+    ],
+    "correctAnswer": "useEffect(function updateTitle() { document.title = name + ' ' + lastname; });"
+  }
+]

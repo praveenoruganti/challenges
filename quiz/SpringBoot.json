@@ -1,0 +1,183 @@
+[
+  {
+    "questionType": "SpringBoot",
+    "question": "What configuration key do we use to define the current profile.",
+    "incorrectAnswers": ["spring.profiles.current", "spring.profiles.default"],
+    "correctAnswer": "spring.profiles.active"
+  },
+  {
+    "questionType": "SpringBoot",
+    "question": "What annotation can we use to inject a property value into our components.",
+    "incorrectAnswers": ["@PropertyValue", "@PropertySource"],
+    "correctAnswer": "@Value"
+  },
+  {
+    "questionType": "SpringBoot",
+    "question": "You can use both application.properties & application.yaml files in the same project.",
+    "incorrectAnswers": ["False"],
+    "correctAnswer": "True"
+  },
+  {
+    "questionType": "SpringBoot",
+    "question": "When defining properties using multiple property sources order doesn't matter.",
+    "incorrectAnswers": ["True"],
+    "correctAnswer": "False"
+  },
+  {
+    "questionType": "SpringBoot",
+    "question": "YAML is a superset of",
+    "incorrectAnswers": ["XML", "Both", "None"],
+    "correctAnswer": "JSON"
+  },
+  {
+    "questionType": "SpringBoot",
+    "question": "If we have both an application.properties file and a application.yaml the files get merged. Which one wins?",
+    "incorrectAnswers": ["application.yml"],
+    "correctAnswer": "application.properties"
+  },
+  {
+    "questionType": "SpringBoot",
+    "question": "Which one of the following is the default bean scope if one is not provided.",
+    "incorrectAnswers": ["Prototype", "Session", "Request"],
+    "correctAnswer": "Singleton"
+  },
+  {
+    "questionType": "SpringBoot",
+    "question": "What method should be avoided for auto wiring dependencies? This method is valid but it also makes testing your applications hard.",
+    "incorrectAnswers": ["Setter Injection"],
+    "correctAnswer": "Property Injection"
+  },
+  {
+    "questionType": "SpringBoot",
+    "question": "Property Injection makes testing very difficult.",
+    "incorrectAnswers": ["False"],
+    "correctAnswer": "True"
+  },
+  {
+    "questionType": "SpringBoot",
+    "question": "How do you mark a domain object as a JPA Entity.",
+    "incorrectAnswers": ["@JpaEntity", "@Model", "@Domain"],
+    "correctAnswer": "@Entity"
+  },
+  {
+    "questionType": "SpringBoot",
+    "question": "JPA Entity requires one of the following",
+    "incorrectAnswers": ["A toString method", "At least 3 properties"],
+    "correctAnswer": "A private no arg constructor"
+  },
+  {
+    "questionType": "SpringBoot",
+    "question": "If we create a property in a class private String firstName by default what is the name of the column that gets created for us.",
+    "incorrectAnswers": ["firstname", "firstname_col"],
+    "correctAnswer": "first_name"
+  },
+  {
+    "questionType": "SpringBoot",
+    "question": "To create a Post Repository that has an Id of type Long we would create a class that look like",
+    "incorrectAnswers": [
+      "public interface PostRepository extends CrudRepository(Post,Id){}",
+      "public class PostRepository extends CrudRepository(Post,Long){}"
+    ],
+    "correctAnswer": "public interface PostRepository extends CrudRepository(Post,Long){}"
+  },
+  {
+    "questionType": "SpringBoot",
+    "question": "A Spring Data Repository must have the name Repository in it to be valid.",
+    "incorrectAnswers": ["True"],
+    "correctAnswer": "False"
+  },
+  {
+    "questionType": "SpringBoot",
+    "question": "When you include Spring Security the default username is user and the default password is ?",
+    "incorrectAnswers": ["password", "admin", "springsecurity"],
+    "correctAnswer": "randomly generated"
+  },
+  {
+    "questionType": "SpringBoot",
+    "question": "By default Spring Security creates a rule to allow of our static resources (css/js/images/etc)",
+    "incorrectAnswers": ["False"],
+    "correctAnswer": "True"
+  },
+  {
+    "questionType": "SpringBoot",
+    "question": "We can override the default username of user by setting the configuration property",
+    "incorrectAnswers": ["security.username=praveen", "security.user=praveen"],
+    "correctAnswer": "security.user.name=praveen"
+  },
+  {
+    "questionType": "SpringBoot",
+    "question": "What annotation allows us to secure a method?",
+    "incorrectAnswers": ["@Secure", "@SpringSecured", "@SpringSecure"],
+    "correctAnswer": "@Secured"
+  },
+  {
+    "questionType": "SpringBoot",
+    "question": "What is the correct statement?",
+    "incorrectAnswers": [
+      "A. @RestController is not a stereotype",
+      "B. @Controller is a prototype",
+      "C. There is no need to define @ResponseBody if we use @RestController"
+    ],
+    "correctAnswer": "D. Both A and C"
+ },
+ {
+   "questionType": "SpringBoot",
+   "question": "What types of dependency injection does Spring support?",
+   "incorrectAnswers": [
+     "Based on the constructor, setters, and getters",
+     "Based on setters, getters, and properties",
+     "Based on the constructor, setters, and properties"
+   ],
+   "correctAnswer": "Based on the constructor and setters"
+ },
+ {
+   "questionType": "SpringBoot",
+   "question": "Beans defined in the spring framework are by default ______",
+   "incorrectAnswers": [
+     "Initialized",
+     "Abstract",
+     "Final"
+   ],
+   "correctAnswer": "Singleton"
+ },
+ {
+   "questionType": "SpringBoot",
+   "question": "Which of the following statements is true?",
+   "incorrectAnswers": [
+     "ApplicationContext implements the BeanFactory",
+     "BeanFactory inherits from ApplicationContext",
+     "BeanFactory implements ApplicationContext"
+   ],
+   "correctAnswer": "ApplicationContext inherits from BeanFactory"
+ },
+ {
+   "questionType": "SpringBoot",
+   "question": "Which class does the IoC container represent?",
+   "incorrectAnswers": [
+     "ServletContext",
+     "RootContext",
+     "WebApplicationContext"
+   ],
+   "correctAnswer": "ApplicationContext"
+ },
+ {
+   "questionType": "SpringBoot",
+   "question": "How to auto-inject in an attribute a bean by its name?",
+   "incorrectAnswers": [
+     "With the name attribute of the @Autowired annotation",
+     "Using the unique @Qualifier annotation",
+     "None of the above"
+   ],
+   "correctAnswer": "Using the @Autowired and @Qualifier spring annotations"
+ },
+ {
+   "questionType": "SpringBoot",
+   "question": "What is the correct answer about the bean life cycle in Spring?",
+   "incorrectAnswers": [
+     "The method with the @PostConstruct annotation is called after the instantiation of the bean and before the setting of its properties.",
+     "The @PreDestroy method of a bean prototype is called when the bean is destroyed.",
+     "The init() method declared in the init-method attribute of a bean is called before the afterPropertiesSet callback method of the InitializingBean interface."
+   ],
+   "correctAnswer": "The method with the @PostConstruct annotation is called before the afterPropertiesSet callback method of the InitializingBean interface."
+ }
+]

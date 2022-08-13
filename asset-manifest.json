@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/challenges/static/css/main.5a598632.chunk.css",
+    "main.js": "/challenges/static/js/main.35fb2db4.chunk.js",
+    "runtime-main.js": "/challenges/static/js/runtime-main.11ab13d1.js",
+    "static/js/2.15a197ef.chunk.js": "/challenges/static/js/2.15a197ef.chunk.js",
+    "index.html": "/challenges/index.html",
+    "static/js/2.15a197ef.chunk.js.LICENSE.txt": "/challenges/static/js/2.15a197ef.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.11ab13d1.js",
+    "static/js/2.15a197ef.chunk.js",
+    "static/css/main.5a598632.chunk.css",
+    "static/js/main.35fb2db4.chunk.js"
+  ]
+}

@@ -1,0 +1,172 @@
+[
+  {
+    "questionType": "CSS",
+    "question": "What does CSS stand for?",
+    "incorrectAnswers": [
+      "Candian Stylesheet System",
+      "Computed Stylesheet System",
+      "Cosmos Style Sheets"
+    ],
+    "correctAnswer": "Cascading Style Sheets"
+  },
+  {
+    "questionType": "CSS",
+    "question": "What are the properties of the box model?",
+    "incorrectAnswers": [
+      "width, heigth, padding, margin",
+      "width, heigth, weigth, space",
+      "All of the Above"
+    ],
+    "correctAnswer": "margin, border, padding, content"
+  },
+  {
+    "questionType": "CSS",
+    "question": "What is the rem unit based on?",
+    "incorrectAnswers": [
+      "The rem unit is relative to the font-size of the p element.",
+      "You have to set the value for the rem unit by writing a declaration such as rem { font-size: 1 Spx; }",
+      "The rem unit is relative to the font-size of the containing (parent) element."
+    ],
+    "correctAnswer": "The rem unit is relative to the font-size of the root element of the page."
+  },
+  {
+    "questionType": "CSS",
+    "question": "What is true of block and inline elements?",
+    "incorrectAnswers": [
+      "By default, block elements are the same height and width as the content container between their tags; inline elements span the entire width of its container.",
+      "A nav element is an example of an inline element. header is an example of a block element.",
+      "A span is an example of a block element. div is an example of an inline element."
+    ],
+    "correctAnswer": "By default, block elements span the entire width of its container; inline elements are the same height and width as the content contained between their tags."
+  },
+  {
+    "questionType": "CSS",
+    "question": "What are CSS selectors?",
+    "incorrectAnswers": [
+      ". # *",
+      "a, li, p",
+      ":hover, :focus"
+    ],
+    "correctAnswer": "All of the Above"
+  },
+  {
+    "questionType": "CSS",
+    "question": "You want an element to be in the center. A property youll change is...",
+    "incorrectAnswers": [
+      "align!",
+      "padding.",
+      "All of the Above"
+    ],
+    "correctAnswer": "margins!"
+  },
+  {
+    "questionType": "CSS",
+    "question": "There are many properties that can be used to align elements and create page layouts such as float, position, flexbox and grid. Of these four properties, which one should be used to align a global navigation bar which stays fixed at the top of the page?",
+    "incorrectAnswers": [
+      "flexbox",
+      "grid",
+      "float"
+    ],
+    "correctAnswer": "position"
+  },
+  {
+    "questionType": "CSS",
+    "question": "When elements overlap, they are ordered on the z-axis (i.e., which element covers another). The z-index property can be used to specify the z-order of overlapping elements. Which set of statements about the z-index property are true?",
+    "incorrectAnswers": [
+      "Smaller z-index values appear on top of elements with a larger z-index value. Negative and positive numbers can be used. z-index must also be used with positioned elements.",
+      "Larger z-index values appear on top of elements with a lower z-index value. Only positive numbers can be used. z-index must also be used with positioned elements.",
+      "Smaller z-index values appear on top of elements with a larger z-index value. Negative and positive numbers can be used. z-index can be used with or without positioned elements."
+    ],
+    "correctAnswer": "Larger z-index values appear on top of elements with a lower z-index value. Negative and positive numbers can be used. z-index can only be used on positioned elements.;"
+  },
+  {
+    "questionType": "CSS",
+    "question": "When adding transparency styles, what is the difference between using the opacity property versus the background property with an rgba() value?",
+    "incorrectAnswers": [
+      "Opacity specifies the level of transparency of the child elements. Background with an rgba() value applies transparency to the background color only.",
+      "Opacity applies transparency to the background color only. Background with an rgba() value specifies the level of transparency of an element, as a whole, including its content.",
+      "Opacity applies transparency to the parent and child elements. Background with an rgba() value specifies the level of transparency of the parent element only."
+    ],
+    "correctAnswer": "Opacity specifies the level of transparency of an element, including its content. Background with an rgba() value applies transparency to the background color only."
+  },
+  {
+    "questionType": "CSS",
+    "question": "What display property should I use if I want my p tag to not take the whole width of the container?",
+    "incorrectAnswers": [
+      "inline",
+      "block",
+      "flex"
+    ],
+    "correctAnswer": "inline-block"
+  },
+  {
+    "questionType": "CSS",
+    "question": "How would you make the first letter of every paragraph on the page red?",
+    "incorrectAnswers": [
+      "p:first-letter { color: red; }",
+      "first-letter::p { color: red; }",
+      "first-letter:p { color: red; }"
+    ],
+    "correctAnswer": " p::first-letter { color: red; }"
+  },
+  {
+    "questionType": "CSS",
+    "question": " When using flexbox, the justify-content property can be used to distribute the space between the flex items along the main axis. Which value should be used to evenly distribute the flex items within the container shown below?",
+    "incorrectAnswers": [
+      "justify-content: center;",
+      "justify-content: auto;",
+      "justify-content: space-between;"
+    ],
+    "correctAnswer": "justify-content: space-around;"
+  },
+  {
+    "questionType": "CSS",
+    "question": "When using position: fixed, what will the element always be positioned relative to?",
+    "incorrectAnswers": [
+      "the closest element with position: relative",
+      "the parent element",
+      "the wrapper element"
+    ],
+    "correctAnswer": "the viewport"
+  },
+  {
+    "questionType": "CSS",
+    "question": "What is the difference between display:none and visibility:hidden?",
+    "incorrectAnswers": [
+      "Both will hide the element on the page, but display:none has greater browser support. visibility:hidden is a new property and does not have the best browser support",
+      "display:none hides the elements but maintains the space it previously occupied. visibility:hidden will hide the element from view and remove it from the normal flow of the document",
+      "There is no difference; both will hide the element on the page"
+    ],
+    "correctAnswer": "display:none hides the element from view and removes it from the normal flow of the document. visibility:hidden will hide the element but maintains the space it previously occupied."
+  },
+  {
+    "questionType": "CSS",
+    "question": "What is the difference between the margin and padding properties?",
+    "incorrectAnswers": [
+      "Margin adds space around and inside of an element; padding adds space only inside of an element.",
+      "Margin adds a line around an element, padding adds space inside of an element.",
+      "Margin adds space inside of an element, padding adds space around an element."
+    ],
+    "correctAnswer": "Margin adds space around an element; padding adds apace inside of an element."
+  },
+  {
+    "questionType": "CSS",
+    "question": "Which style places an element at a fixed location within its container?",
+    "incorrectAnswers": [
+      "display: flex;",
+      "display: block;",
+      "float: left;"
+    ],
+    "correctAnswer": "position: absolute;"
+  },
+  {
+    "questionType": "CSS",
+    "question": "What is the CSS selector for an a tag containing the title attribute?",
+    "incorrectAnswers": [
+      "a  title",
+      "a=title",
+      "a.title"
+    ],
+    "correctAnswer": "a[title]"
+  }
+]

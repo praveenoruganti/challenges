@@ -1,0 +1,772 @@
+[
+  {
+    "questionType": "Java",
+    "question": "Which of the follwing below live on the heap in java?",
+    "incorrectAnswers": [
+      "Class",
+      "Instance variable",
+      "Method"
+    ],
+    "correctAnswer": "Object"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which of the following interface is used to declare core methods in java?",
+    "incorrectAnswers": [
+      "Set",
+      "Collections",
+      "Comparator"
+    ],
+    "correctAnswer": "Collection"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which of these interface handle sequences?",
+    "incorrectAnswers": [
+      "Set",
+      "Comparator",
+      "Collection"
+    ],
+    "correctAnswer": "List"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which of this interface must contain a unique element?",
+    "incorrectAnswers": [
+      "List",
+      "Array",
+      "Collection"
+    ],
+    "correctAnswer": "Set"
+  },
+  {
+    "questionType": "Java",
+    "question": "What is true of the finalize() method?",
+    "incorrectAnswers": [
+      "It may be called zero or more times.",
+      "It will be called exactly once.",
+      "It may be called one or more times."
+    ],
+    "correctAnswer": "It may be called zero or one times."
+  },
+  {
+    "questionType": "Java",
+    "question": "What is the return type of the hashCode() method in the Object class?",
+    "incorrectAnswers": [
+      "Object",
+      "long",
+      "void"
+    ],
+    "correctAnswer": "int"
+  },
+  {
+    "questionType": "Java",
+    "question": "Evaluate the Java expression, ++z + y - y + z + x++ if x=3, y=5, and z=10",
+    "incorrectAnswers": [
+      "24",
+      "23",
+      "20"
+    ],
+    "correctAnswer": "25"
+  },
+  {
+    "questionType": "Java",
+    "question": "An interface with no fields or methods is known as a ______.",
+    "incorrectAnswers": [
+      "Runnable Interface",
+      "Abstract Interface",
+      "CharSequence Interface"
+    ],
+    "correctAnswer": "Marker Interface"
+  },
+  {
+    "questionType": "Java",
+    "question": "Who is known as father of Java Programming Language?",
+    "incorrectAnswers": [
+      "M. P Java",
+      "Charel Babbage",
+      "Blais Pascal"
+    ],
+    "correctAnswer": "James Gosling"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which provides runtime environment for java byte code to be executed?",
+    "incorrectAnswers": [
+      "JDK",
+      "JRE",
+      "JAVAC"
+    ],
+    "correctAnswer": "JVM"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which variables are created when an object is created with the use of the keyword 'new' and destroyed when the object is destroyed?",
+    "incorrectAnswers": [
+      "Local variables",
+      "Class Variables",
+      "Static variables"
+    ],
+    "correctAnswer": "Instance variables"
+  },
+  {
+    "questionType": "Java",
+    "question": "Iterator returned by Hashtable on key, value and entry are?",
+    "incorrectAnswers": [
+      "Fail-safe",
+      "Fail-early",
+      "None of the above"
+    ],
+    "correctAnswer": "Fail-fast"
+  },
+  {
+    "questionType": "Java",
+    "question": "Iterator returned by ConcurrentHashMap on key, value and entry is?",
+    "incorrectAnswers": [
+      "Fail-fast",
+      "Fail-early",
+      "None of the above"
+    ],
+    "correctAnswer": " Fail-safe"
+  },
+  {
+    "questionType": "Java",
+    "question": "Iterator returned by LinkedHashMap on key, value and entry is?",
+    "incorrectAnswers": [
+      "Fail-safe",
+      "Fail-early",
+      "None of the above"
+    ],
+    "correctAnswer": " Fail-fast"
+  },
+  {
+    "questionType": "Java",
+    "question": "Iterator returned by TreeMap on key, value and entry is?",
+    "incorrectAnswers": [
+      "Fail-safe",
+      "Fail-early",
+      "None of the above"
+    ],
+    "correctAnswer": " Fail-fast"
+  },
+  {
+    "questionType": "Java",
+    "question": "Iterator returned by ConcurrentSkipListMap on key, value and entry is?",
+    "incorrectAnswers": [
+      "Fail-fast",
+      "Fail-early",
+      "None of the above"
+    ],
+    "correctAnswer": "Fail-safe"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which Set implementation is sorted and synchronized?",
+    "incorrectAnswers": [
+      "LinkedHashSet",
+      "TreeSet",
+      "None of the above"
+    ],
+    "correctAnswer": "ConcurrentSkipListSet"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which Map class should be most popular in a multi-threading environment, considering performance constraint?",
+    "incorrectAnswers": [
+      "Hashtable",
+      "ConcurrentHashMap",
+      "ConcurrentMap"
+    ],
+    "correctAnswer": "CopyOnWriteMap"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which of those is synchronized?",
+    "incorrectAnswers": [
+      "TreeMap",
+      "HashMap",
+      "None of the Above"
+    ],
+    "correctAnswer": "Hashtable"
+  },
+  {
+    "questionType": "Java",
+    "question": "What guarantees type-safety in a collection?",
+    "incorrectAnswers": [
+      "Abstract classes",
+      "Interfaces",
+      "Collection"
+    ],
+    "correctAnswer": "Generics"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which of those is synchronized?",
+    "incorrectAnswers": [
+      "ArrayList",
+      "LinkedList",
+      "None of the above"
+    ],
+    "correctAnswer": "Vector"
+  },
+  {
+    "questionType": "Java",
+    "question": "ArrayList implements that of the following?",
+    "incorrectAnswers": [
+      "List",
+      "RandomAccess",
+      "Cloneable"
+    ],
+    "correctAnswer": "All of these"
+  },
+  {
+    "questionType": "Java",
+    "question": "A HashMap permits the existence of",
+    "incorrectAnswers": [
+      "null values",
+      "one null key",
+      "None of these"
+    ],
+    "correctAnswer": "Both of these"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which of the following will directly stop the execution of a Thread?",
+    "incorrectAnswers": [
+      "notify()",
+      "notifyall()",
+      "exits synchronized code"
+    ],
+    "correctAnswer": "wait()"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which class does not override the equals() and hashCode() methods, inheriting them directly from class Object?",
+    "incorrectAnswers": [
+      "java.lang.String",
+      "java.lang.Double",
+      "java.lang.Character"
+    ],
+    "correctAnswer": "java.lang.StringBuffer"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which class or interface defines the wait(), notify(),and notifyAll() methods?",
+    "incorrectAnswers": [
+      "Thread",
+      "Runnable",
+      "Class"
+    ],
+    "correctAnswer": "Object"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which cannot directly cause a thread to stop executing?",
+    "incorrectAnswers": [
+      "Calling the SetPriority() method on a Thread object.",
+      "Calling the wait() method on an object.",
+      "Calling read() method on an InputStream object."
+    ],
+    "correctAnswer": "Calling notify() method on an object."
+  },
+  {
+    "questionType": "Java",
+    "question": "The Java Compiler converts source code to",
+    "incorrectAnswers": [
+      "machine code",
+      "binary code",
+      "class code"
+    ],
+    "correctAnswer": "byte code"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which of the following is not something a object can have?",
+    "incorrectAnswers": [
+      "Identity/Name",
+      "Properties/Fields",
+      "Functions/Methods"
+    ],
+    "correctAnswer": "Classes"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which of the following is responsible for converting byte code to machine code?",
+    "incorrectAnswers": [
+      "Java Compiler",
+      "Operating System",
+      "API"
+    ],
+    "correctAnswer": "JVM"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which of the following is executed before the main method?",
+    "incorrectAnswers": [
+      "static methods",
+      "methods",
+      "variables"
+    ],
+    "correctAnswer": "static blocks"
+  },
+  {
+    "questionType": "Java",
+    "question": "We access the static members of a class using which of the following?",
+    "incorrectAnswers": [
+      "static keyword",
+      "using the JVM",
+      "using the blocks"
+    ],
+    "correctAnswer": "Using the Class Name"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which of the following can be used to refer to the current object",
+    "incorrectAnswers": [
+      "super",
+      "obj",
+      "that"
+    ],
+    "correctAnswer": "this"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which of the following is used to reference object memebers",
+    "incorrectAnswers": [
+      "object",
+      "class",
+      "that"
+    ],
+    "correctAnswer": "this"
+  },
+  {
+    "questionType": "Java",
+    "question": "The service method takes a callable and returns a",
+    "incorrectAnswers": [
+      "Thread",
+      "Runnable",
+      "Executor"
+    ],
+    "correctAnswer": "Future"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which of the following exceptions are thrown when we invoke future.get()",
+    "incorrectAnswers": [
+      "InterruptedException and ServicingException",
+      "InterruptedException and FutureException",
+      "CallableException and ServiceException"
+    ],
+    "correctAnswer": "InterruptedException,CancellationException and ExecutionException"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which of the following ExecutorService method should be called at the end",
+    "incorrectAnswers": [
+      "close",
+      "clean",
+      "clear"
+    ],
+    "correctAnswer": "shutdown"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which method on the object is called by the JVM just before garbage collection",
+    "incorrectAnswers": [
+      "finally",
+      "gc",
+      "cleanup"
+    ],
+    "correctAnswer": "finalize"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which method can be used to request garbage collection",
+    "incorrectAnswers": [
+      "System.cleanup()",
+      "System.finalize()",
+      "System.clear()"
+    ],
+    "correctAnswer": "System.gc()"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which of the following is an advantage of String pooling",
+    "incorrectAnswers": [
+      "maintenance",
+      "scalability",
+      "none of the above"
+    ],
+    "correctAnswer": "performance"
+  },
+  {
+    "questionType": "Java",
+    "question": "The process of writing an object to a stream is called",
+    "incorrectAnswers": [
+      "Deserialization",
+      "OutputStream",
+      "Synchronization"
+    ],
+    "correctAnswer": "Serialization"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which of the following block can close/clean up the resources automatically",
+    "incorrectAnswers": [
+      "try-catch",
+      "close() block",
+      "finally"
+    ],
+    "correctAnswer": "try with resources"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which of the following methods on a StringTokenizer class should be used to check for more tokens",
+    "incorrectAnswers": [
+      "hasTokens()",
+      "nextToken()",
+      "moreTokens()"
+    ],
+    "correctAnswer": "hasMoreTokens()"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which of the following methods from the Object class should be overridden to display meaningful information when an object is used in a System.out.println",
+    "incorrectAnswers": [
+      "toObject",
+      "equals",
+      "hashcode"
+    ],
+    "correctAnswer": "toString"
+  },
+  {
+    "questionType": "Java",
+    "question": "What interface must be implemented by an object to allow it to be iterated with a for-each loop?",
+    "incorrectAnswers": [
+      "List",
+      "Comparator",
+      "Comparable"
+    ],
+    "correctAnswer": "Iterable"
+  },
+  {
+    "questionType": "Java",
+    "question": "What type of operation is used to end a stream?",
+    "incorrectAnswers": [
+      "Intermediate Operation",
+      "Ternary Operation",
+      "Completion Operation"
+    ],
+    "correctAnswer": "Terminal Operation"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which method on the Stream is used to apply a predicate against an object to determine if it continues for further processing in the stream?",
+    "incorrectAnswers": [
+      "condition()",
+      "test()",
+      "forEach()"
+    ],
+    "correctAnswer": "filter()"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which method on the Iterator interface allows us to check if there are more elements to traverse?",
+    "incorrectAnswers": [
+      "more()",
+      "next()",
+      "empty()"
+    ],
+    "correctAnswer": "hasNext()"
+  },
+  {
+    "questionType": "Java",
+    "question": "What exception is thrown if we attempt to modify a Collection while iterating through it?",
+    "incorrectAnswers": [
+      "IndexOutOfBoundsException",
+      "UnsupportedOperationException",
+      "ClassCastException"
+    ],
+    "correctAnswer": "ConcurrentModificationException"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which method is used to transform an element flowing through the stream into another type for further processing downstream?",
+    "incorrectAnswers": [
+      "filter()",
+      "forEach()",
+      "collect()"
+    ],
+    "correctAnswer": "map()"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which is not an approach for iterating a collection?",
+    "incorrectAnswers": [
+      "Loops",
+      "Iterables",
+      "Streams"
+    ],
+    "correctAnswer": "Projections"
+  },
+  {
+    "questionType": "Java",
+    "question": "What are the three parts of a lambda expression?",
+    "incorrectAnswers": [
+      "A return type and a body.",
+      "The parameters, an arrow, the return type, and a body.",
+      "An arrow, the return type, and a body."
+    ],
+    "correctAnswer": "The parameters, an arrow, and a body."
+  },
+  {
+    "questionType": "Java",
+    "question": "When working with a stream, what is one reason to use a collector?",
+    "incorrectAnswers": [
+      "To apply a predicate against an object to determine if it continues for further processing.",
+      "To transform elements flowing through stream into another type for further processing downstream.",
+      "To modify the collection that was the source of the stream."
+    ],
+    "correctAnswer": "To gather the elements flowing through the stream into a collection."
+  },
+  {
+    "questionType": "Java",
+    "question": "Which Set implementation can be used to retain the order the elements were inserted into it?",
+    "incorrectAnswers": [
+      "HashSet",
+      "BasicSet",
+      "ArraySet"
+    ],
+    "correctAnswer": "LinkedHashSet"
+  },
+  {
+    "questionType": "Java",
+    "question": "What interface can an object stored in a TreeSet implement to help define its order?",
+    "incorrectAnswers": [
+      "Collection",
+      "Comparator",
+      "Iterable"
+    ],
+    "correctAnswer": "Comparable"
+  },
+  {
+    "questionType": "Java",
+    "question": "What is one unique characteristic of a Set?",
+    "incorrectAnswers": [
+      "It uses key/value pairs to build entries.",
+      "Each implementation of a Set supports concurrency.",
+      "It does not extend the Collection interface."
+    ],
+    "correctAnswer": "It does not store duplicate elements."
+  },
+  {
+    "questionType": "Java",
+    "question": "What is the index of the element in the first position of a List?",
+    "incorrectAnswers": [
+      "null",
+      "1",
+      "-1"
+    ],
+    "correctAnswer": "0"
+  },
+  {
+    "questionType": "Java",
+    "question": "When working with a List an element can be retrieved by its _____.",
+    "incorrectAnswers": [
+      "pointer",
+      "key",
+      "hash value"
+    ],
+    "correctAnswer": "position"
+  },
+  {
+    "questionType": "Java",
+    "question": "When an element is not found within a List what value is returned by the indexOf method?",
+    "incorrectAnswers": [
+      "0",
+      "NaN",
+      "1"
+    ],
+    "correctAnswer": "-1"
+  },
+  {
+    "questionType": "Java",
+    "question": "The initial capacity of an ArrayList determines the size of its internal _____.",
+    "incorrectAnswers": [
+      "buffer",
+      "stream",
+      "map"
+    ],
+    "correctAnswer": "array"
+  },
+  {
+    "questionType": "Java",
+    "question": "What type of order is used by a stack?",
+    "incorrectAnswers": [
+      "FIFO",
+      "LILO",
+      "FIDO"
+    ],
+    "correctAnswer": "LIFO"
+  },
+  {
+    "questionType": "Java",
+    "question": "What do the two generic type parameters on the Map represent?",
+    "incorrectAnswers": [
+      "The type of the Map's key.",
+      "The type of the Map's hash value and key.",
+      "The type of the Map's indexes and values."
+    ],
+    "correctAnswer": "The type of the Map's key and values."
+  },
+  {
+    "questionType": "Java",
+    "question": "Which description best describes the behavior of the putIfAbsent() method?",
+    "incorrectAnswers": [
+      "It creates a new association in the map for the provided key and value.",
+      "It updates the association in the map for the provided key with the provided value.",
+      "It updates or creates a new association in the map for the provided key and value."
+    ],
+    "correctAnswer": "It creates a new association in the map for the provided key and value, only if the key is not associated with an existing value in the map."
+  },
+  {
+    "questionType": "Java",
+    "question": "The Map can be used in the for-each loop because it implements the _____ interface.",
+    "incorrectAnswers": [
+      "Stream",
+      "Comparator",
+      "Comparable"
+    ],
+    "correctAnswer": "Iterable"
+  },
+  {
+    "questionType": "Java",
+    "question": "The numeric value that results from hashing an object is known as its _____.",
+    "incorrectAnswers": [
+      "MD5",
+      "index",
+      "code"
+    ],
+    "correctAnswer": "hash value"
+  },
+  {
+    "questionType": "Java",
+    "question": "When retrieving a value from a HashMap how does it resolve a collision between keys with same hash value and index?",
+    "incorrectAnswers": [
+      "It invokes the hashCode() method on the key.",
+      "It invokes the hashCode() method on the value.",
+      "It invokes the equals() method on the value."
+    ],
+    "correctAnswer": "It invokes the equals() method on the key."
+  },
+  {
+    "questionType": "Java",
+    "question": "What value is returned from the Map's put method?",
+    "incorrectAnswers": [
+      "The previous Entry associated with the provided value.",
+      "The new Entry created in the Map.",
+      "The new value associated with the provided key."
+    ],
+    "correctAnswer": "The current value associated with the provided key."
+  },
+  {
+    "questionType": "Java",
+    "question": "Which method can be used to access the map's entries as a collection?",
+    "incorrectAnswers": [
+      "entries",
+      "keys",
+      "values"
+    ],
+    "correctAnswer": "entrySet"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which interface used for ordering objects accepts two arguments?",
+    "incorrectAnswers": [
+      "Comparable",
+      "Iterable",
+      "Evaluator"
+    ],
+    "correctAnswer": "Comparator"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which interface is used to place objects in their natural order?",
+    "incorrectAnswers": [
+      "Evaluator",
+      "Iterable",
+      "Comparator"
+    ],
+    "correctAnswer": "Comparable"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which interface used for ordering objects compares the current instance of an object against a provided instance?",
+    "incorrectAnswers": [
+      "Evaluator",
+      "Iterable",
+      "Comparator"
+    ],
+    "correctAnswer": "Comparable"
+  },
+  {
+    "questionType": "Java",
+    "question": "When might a Comparator be used to compare objects?",
+    "incorrectAnswers": [
+      "When we want to order two different types of objects.",
+      "When we want to store an object in a HashMap.",
+      "When we randomize a group of objects."
+    ],
+    "correctAnswer": "When we want to order objects in something other than their natural order."
+  },
+  {
+    "questionType": "Java",
+    "question": "Before passing a collection to the binarySearch() method it must be _____.",
+    "incorrectAnswers": [
+      "distinct",
+      "pruned",
+      "empty"
+    ],
+    "correctAnswer": "sorted"
+  },
+  {
+    "questionType": "Java",
+    "question": "Where does the JVM live?",
+    "incorrectAnswers": [
+      "JDK",
+      "IDE",
+      "JIT"
+    ],
+    "correctAnswer": "JRE"
+  },
+  {
+    "questionType": "Java",
+    "question": "Which of the following contains the full featured Software Development Kit that you need in order to develop Java programs?",
+    "incorrectAnswers": [
+      "JRE",
+      "IDE",
+      "JIT"
+    ],
+    "correctAnswer": "JDK"
+  },
+  {
+    "questionType": "Java",
+    "question": "What construct do we use to define an object's properties and functionality?",
+    "incorrectAnswers": [
+      "Object",
+      "Behavior",
+      "Instance"
+    ],
+    "correctAnswer": "class"
+  },
+  {
+    "questionType": "Java",
+    "question": "If I wanted to make a variable only visible in the class it lives in, what access modifier would I use?",
+    "incorrectAnswers": [
+      "protected",
+      "non-modifier",
+      "public"
+    ],
+    "correctAnswer": "private"
+  }
+]

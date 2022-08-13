@@ -1,0 +1,102 @@
+[
+    {
+        "questionType": "LLD",
+        "question": "What does DRY stand for?",
+        "incorrectAnswers": [
+            "Don't Run Yet",
+            "Do Repeat Yet",
+            "Do Run Yourself"
+        ],
+        "correctAnswer": "Don't Repeat Yourself"
+    },
+    {
+        "questionType": "LLD",
+        "question": "What does D in SOLID principles mean?",
+        "incorrectAnswers": [
+            "Dependency Injection",
+            "Deployment Intrusion",
+            "Development Improvement"
+        ],
+        "correctAnswer": "Dependency Inversion"
+    },
+    {
+        "questionType": "LLD",
+        "question": "Which principle says that 'a class should have a single reason to change'?",
+        "incorrectAnswers": [
+            "Single Development Principle",
+            "Single Class Principle",
+            "Single Change Principle"
+        ],
+        "correctAnswer": "Single Responsibility Principle"
+    },
+    {
+        "questionType": "LLD",
+        "question": "Which of the following is not a category of Design Pattern?",
+        "incorrectAnswers": [
+            "Creational Design Patterns",
+            "Behavioural Design Patterns",
+            "Structural Design Patterns"
+        ],
+        "correctAnswer": "Communication Design Patterns"
+    },
+    {
+        "questionType": "LLD",
+        "question": "Which design pattern ensures that only one object of a particular class gets created?",
+        "incorrectAnswers": [
+            "Object Design Pattern",
+            "Filter Design Pattern",
+            "State Design Pattern"
+        ],
+        "correctAnswer": "Singleton Design Pattern"
+    },
+    {
+        "questionType": "LLD",
+        "question": "What does the MVC pattern stands for?",
+        "incorrectAnswers": [
+            "Mock View Controller",
+            "Mock View Class",
+            "Model View Class"
+        ],
+        "correctAnswer": "Model View Controller"
+    },
+    {
+        "questionType": "LLD",
+        "question": "Which of the below is not an Object Oriented Principle?",
+        "incorrectAnswers": [
+            "Strive for loosely coupled classes",
+            "Prefer Composition over Inheritance",
+            "Encapsulate what varies"
+        ],
+        "correctAnswer": "Depend on concrete classes"
+    },
+    {
+        "questionType": "LLD",
+        "question": "Which of the below is not a UML diagram?",
+        "incorrectAnswers": [
+            "Class Diagram",
+            "Deployment Diagram",
+            "Sequence Diagram"
+        ],
+        "correctAnswer": "Development Diagram"
+    },
+    {
+        "questionType": "LLD",
+        "question": "Which of the following describes the Strategy pattern correctly?",
+        "incorrectAnswers": [
+            "a class behaviour changes based on its state.",
+            "a null object replaces check of a NULL object instance.",
+            "an abstract class exposes defined way(s)/template(s) to execute its methods."
+        ],
+        "correctAnswer": "a class behaviour or its algorithm can be changed at run time."
+    },
+    {
+        "questionType": "LLD",
+        "question": "In a Low-Level Design interview, which of the following options would be the correct sequence to follow?Statement I: Specifying the core requirements to be included., Statement II: Create a class diagram & use a case diagram, Statement III: Clarifying any doubts with regards to the question asked., Statement IV: Implement the code using Object Oriented Principles & Design Patterns.",
+        "incorrectAnswers": [
+            "III, I, II, IV",
+            "III, I, IV, II",
+            "I, III, IV, II"
+        ],
+        "correctAnswer": "III, I, II, IV"
+    }
+]
